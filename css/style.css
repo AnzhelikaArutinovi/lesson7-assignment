@@ -1,0 +1,249 @@
+/* header styles */
+
+.header-block {
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.header-wraper {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: #FFFFFF;
+    padding-top: 53px;
+    height: 118px;
+}
+
+.ul-item {
+    display: flex;
+    width: 601px;
+    justify-content: space-between;
+}
+.ul-li > a {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 22px;
+    color:#37393F;
+}
+.fa-chevron-down {
+    color: #37393F;
+    height: 4px;
+    width: 8px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    width: 825px;
+    justify-content: space-between;
+}
+.purple-button {
+    height: 65px;
+    width:  184px;
+    background-color: #6B77E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-button > p {
+    color: #FFFFFF;
+    font-family: 'Cabin';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;;
+}
+
+/* section 1 - "How We Work" */
+.section-after-header {
+    margin-top: 254px;
+}
+.section-1 {
+    width: 1220px;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+/* "How We Work" text block styles */
+.text-block-1 {
+    width: 283px;
+    text-align: center;
+    margin-bottom: 41px;
+}
+.desc {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #37393F;
+    margin-bottom: 16px;
+}
+.title {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #37393F;
+}
+/* "How We Work" content block styles */
+.content-block {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+}
+.block {
+    background-color:#F4F4F4;
+    height: 383px;
+    width: 386px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-wraper {
+    text-align: center;
+    height: 185px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.block-title {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #37393F;
+}
+.block-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #7D7D7D;
+    margin: 16px 0 37px 0;
+}
+.testimonials {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #6B77E5;
+}
+.icon-block {
+    background-color: #40DDB6;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle {
+    background-color: #6B77E5;
+}
+/* section 2 - "Our Presentation" */
+.image-banner {
+    width: 100%;
+}
+.text-block-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 511px;
+    text-align: center;
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+}
+.section-2 {
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 155px;
+    color: #37393F;
+}
+.section-2-text {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-top: 21px;
+    color: #37393F;
+}
+.purple-icon {
+    background-color: #6B77E5;
+    border-radius: 50%;
+    width: 64.5px;
+    height: 64.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 23.08px;
+    margin-top: 47px;
+}
+.fa-play {
+    color: #FFFFFF; 
+    font-size: 30px;
+}
+/* section 3 - "Meet Our Experts" */
+.section-3 {
+    width: 1220px;
+    height: 659px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto 131px auto;
+}
+/* "Meet Our Experts" text block styles */
+.text-block-3 {
+    width: 384px;
+    text-align: center;
+}
+/* "Meet Our Experts" content block styles */
+.profiles-block {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+}
+.profile-wraper {
+    position: relative;
+}
+.name-block {
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+    height: 114px;
+    width: 341px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-image {
+    display: block;
+}
+.name {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #37393F;
+    margin-bottom: 4px;
+}
+.position {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #7D7D7D;
+}
